@@ -1,0 +1,17 @@
+{
+    "name": "jira-to-googletask",
+    "version": "1.0.0",
+    "description": "Tool for syncing Jira and Google Tasks",
+    "main": "index.js",
+    "repository": "https://github.com/patrickjmcd/jira-to-googletask",
+    "author": "patrickjmcd",
+    "license": "MIT",
+    "dependencies": {
+        "googleapis": "39",
+        "jira-connector": "^2.16.1",
+        "moment": "^2.24.0"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
+}
